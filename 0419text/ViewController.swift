@@ -26,10 +26,6 @@ class ViewController: UIViewController {
    
     @IBAction func caculate(_ sender: UIButton) {
        
-        priceTextField.resignFirstResponder()
-        percentTextField.resignFirstResponder()
-        memberTextFeild.resignFirstResponder()
-         
         
         let priceText = priceTextField.text!
         let percentText = percentTextField.text!
